@@ -18,13 +18,13 @@ The following **required** functionality will be completed:
 
 The following **optional** features are implemented:
 
+- [ ] All images fade in as they are loading.
 
 The following **optional** features will be implemented soon:
 
 - [ ] User sees an error message when there's a networking error.
 - [ ] Movies are displayed using a CollectionView instead of a TableView.
 - [ ] User can search for a movie.
-- [ ] All images fade in as they are loading.
 - [ ] Customize the UI.
 
 The following **additional** features are implemented:
