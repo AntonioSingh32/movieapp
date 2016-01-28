@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AFNetworking
+import MBProgressHUD
 
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
 
@@ -31,6 +33,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
             configuration: NSURLSessionConfiguration.defaultSessionConfiguration(),
             delegate: nil,
             delegateQueue: NSOperationQueue.mainQueue()
+            
         )
         
         let task: NSURLSessionDataTask = session.dataTaskWithRequest(request,
@@ -47,6 +50,32 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
                 }
         })
         task.resume()
+        
+        func loadDataFromNetwork() {
+            
+            // ... Create the NSURLRequest (myRequest) ...
+            
+            // Configure session so that completion handler is executed on main UI thread
+            let session = NSURLSession(
+                configuration: NSURLSessionConfiguration.defaultSessionConfiguration(),
+                delegate:nil,
+                delegateQueue:NSOperationQueue.mainQueue()
+            )
+            
+            // Display HUD right before the request is made
+            MBProgressHUD.showHUDAddedTo(self.view, animated: true)
+            
+            let task : NSURLSessionDataTask = session.dataTaskWithRequest(request,
+                completionHandler: { (data, response, error) in
+                    
+                    // Hide HUD once the network request comes back (must be done on main UI thread)
+                    MBProgressHUD.hideHUDForView(self.view, animated: true)
+                    
+                    // ... Remainder of response handling code ...
+                    
+            });
+            task.resume()
+        }
         
         
         
@@ -77,16 +106,53 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         let movie = movies! [indexPath.row]
         let title = movie["title"] as! String
         let overview = movie ["overview"] as! String
+        let posterPath = movie ["poster_path"] as! String
+        
+        let baseUrl = "http://image.tmdb.org/t/p/w500"
+        
+        let imageUrl = NSURL(string: baseUrl + posterPath)
+        
+        let imageRequest = NSURLRequest(URL: NSURL(string: baseUrl + posterPath)!)
+        
         
         cell.titleLabel.text = title
         cell.overviewLabel.text = overview
+        cell.posterView.setImageWithURL(imageUrl!)
+        
+        cell.posterView.setImageWithURLRequest(
+            imageRequest,
+            placeholderImage: nil,
+            success: { (imageRequest, imageResponse, image) -> Void in
+                
+                // imageResponse will be nil if the image is cached
+                if imageResponse != nil {
+                    print("Image was NOT cached, fade in image")
+                    cell.posterView.alpha = 0.0
+                    cell.posterView.image = image
+                    UIView.animateWithDuration(0.3, animations: { () -> Void in
+                        cell.posterView.alpha = 1.0
+                    })
+                } else {
+                    print("Image was cached so just update the image")
+                    cell.posterView.image = image
+                }
+            },
+            failure: { (imageRequest, imageResponse, error) -> Void in
+                // do something for the failure condition
+        })
+        
+        
+
         
        
         print ("row \(indexPath.row)")
         return cell
         
+        
+        
     }
  
+    
 
     /*
     // MARK: - Navigation
