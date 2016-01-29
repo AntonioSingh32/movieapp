@@ -6,14 +6,11 @@ Time spent: **2** hours spent in total so far
 
 ## User Stories
 
-The following **required** functionality is complete:
+The following **required** functionality will be completed:
 
 - [ ] User can view a list of movies currently playing in theaters from The Movie Database.
 - [ ] Poster images are loaded using the UIImageView category in the AFNetworking library.
 - [ ] User sees a loading state while waiting for the movies API.
-
-The following **required** functionality will be completed:
-
 - [ ] User can pull to refresh the movie list.
 
 The following **optional** features are implemented:
