@@ -1,4 +1,4 @@
-# Project 1 - *Movie Viewer*
+# Project 1 - *Flicks App*
 
 **Flicks App** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
