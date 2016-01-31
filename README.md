@@ -26,7 +26,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories as of right now (Updated GIF will be added for Final Version of App this Sunday):
 
-<img src='https://zippy.gfycat.com/MilkyGoldenAtlanticsharpnosepuffer.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://giant.gfycat.com/MilkyGoldenAtlanticsharpnosepuffer.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
