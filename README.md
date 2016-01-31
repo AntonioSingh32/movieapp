@@ -1,8 +1,8 @@
 # Project 1 - *Movie Viewer*
 
-**Movie Viewer** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+**Flicks App** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **2** hours spent in total so far
+Time spent: **8** hours spent in total so far
 
 ## User Stories
 
@@ -17,19 +17,6 @@ The following **optional** features are implemented:
 
 - [ ] All images fade in as they are loading.
 
-The following **optional** features will be implemented soon:
-
-- [ ] User sees an error message when there's a networking error.
-- [ ] Movies are displayed using a CollectionView instead of a TableView.
-- [ ] User can search for a movie.
-- [ ] Customize the UI.
-
-The following **additional** features are implemented:
-
-The following **additional** features will be implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
-
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
 1. How to add in specific filters to app to specify genres of movies or top rated.
@@ -39,7 +26,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories as of right now (Updated GIF will be added for Final Version of App this Sunday):
 
-<img src='https://giant.gfycat.com/GrizzledComplexIrukandjijellyfish.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://zippy.gfycat.com/MilkyGoldenAtlanticsharpnosepuffer.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
