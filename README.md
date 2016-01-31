@@ -2,11 +2,11 @@
 
 **Flicks App** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **8** hours spent in total so far
+Time spent: **8** hours 
 
 ## User Stories
 
-The following **required** functionality will be completed:
+The following **required** functionality were completed:
 
 - [ ] User can view a list of movies currently playing in theaters from The Movie Database.
 - [ ] Poster images are loaded using the UIImageView category in the AFNetworking library.
@@ -24,7 +24,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 ## Video Walkthrough 
 
-Here's a walkthrough of implemented user stories as of right now (Updated GIF will be added for Final Version of App this Sunday):
+Here's a walkthrough of implemented user stories:
 
 <img src='https://giant.gfycat.com/MilkyGoldenAtlanticsharpnosepuffer.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
