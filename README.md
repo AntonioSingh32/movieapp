@@ -30,7 +30,7 @@ Here's a walkthrough of implemented user stories:
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Had challenge of getting refresh feature to work but over time i realized the problem was due to placement of the code
 
 ## License
 
