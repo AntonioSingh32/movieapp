@@ -1,12 +1,12 @@
-# Project 1 - *Movie Viewer*
+# Project 1 - *Flicks App*
 
-**Movie Viewer** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+**Flicks App** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **2** hours spent in total so far
+Time spent: **8** hours 
 
 ## User Stories
 
-The following **required** functionality will be completed:
+The following **required** functionality were completed:
 
 - [ ] User can view a list of movies currently playing in theaters from The Movie Database.
 - [ ] Poster images are loaded using the UIImageView category in the AFNetworking library.
@@ -17,19 +17,6 @@ The following **optional** features are implemented:
 
 - [ ] All images fade in as they are loading.
 
-The following **optional** features will be implemented soon:
-
-- [ ] User sees an error message when there's a networking error.
-- [ ] Movies are displayed using a CollectionView instead of a TableView.
-- [ ] User can search for a movie.
-- [ ] Customize the UI.
-
-The following **additional** features are implemented:
-
-The following **additional** features will be implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
-
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
 1. How to add in specific filters to app to specify genres of movies or top rated.
@@ -37,13 +24,13 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 ## Video Walkthrough 
 
-Here's a walkthrough of implemented user stories as of right now (Updated GIF will be added for Final Version of App this Sunday):
+Here's a walkthrough of implemented user stories:
 
-<img src='https://giant.gfycat.com/GrizzledComplexIrukandjijellyfish.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://giant.gfycat.com/MilkyGoldenAtlanticsharpnosepuffer.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Had challenge of getting refresh feature to work but over time i realized the problem was due to placement of the code
 
 ## License
 
