@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		220CCC6167B3DB8897966A63 /* Pods_MovieView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF03FBB8DD8719F20A721C5C /* Pods_MovieView.framework */; };
+		2516CC001C603808002E7862 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2516CBFF1C603808002E7862 /* DetailViewController.swift */; };
 		257AA9001C558477000E5E6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257AA8FF1C558477000E5E6B /* AppDelegate.swift */; };
 		257AA9051C558477000E5E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257AA9031C558477000E5E6B /* Main.storyboard */; };
 		257AA9071C558477000E5E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257AA9061C558477000E5E6B /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		032370AA100168BDD531EBF7 /* Pods-MovieView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MovieView/Pods-MovieView.debug.xcconfig"; sourceTree = "<group>"; };
+		2516CBFF1C603808002E7862 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		257AA8FC1C558477000E5E6B /* MovieView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		257AA8FF1C558477000E5E6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		257AA9041C558477000E5E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		257AA9161C56D2AC000E5E6B /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2516CBFF1C603808002E7862 /* DetailViewController.swift */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				257AA9001C558477000E5E6B /* AppDelegate.swift in Sources */,
 				257AA9121C55850B000E5E6B /* MoviesViewController.swift in Sources */,
 				257AA9151C56D299000E5E6B /* MovieCell.swift in Sources */,
+				2516CC001C603808002E7862 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
